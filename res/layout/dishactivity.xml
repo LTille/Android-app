@@ -1,0 +1,21 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    > 
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1" >
+    <com.smashdishes.game.GameView android:id="@+id/view3d"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"/>                
+        <Button
+         android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                 android:id="@+id/button1"/>
+              
+    </RelativeLayout>   
+</LinearLayout>
